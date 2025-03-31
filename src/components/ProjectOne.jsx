@@ -5,7 +5,7 @@ const ProjectOne = () => {
     <section id="project-one" className="project-one-section">
       <div className="project-one-content">
         <img
-          src="./src/assets/homepage.png" // Replace with your image path
+          src={`${import.meta.env.BASE_URL}homepage.png`} // Replace with your image path
           alt="Project One Screenshot"
           className="project-one-image"
         />

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-content">
-      <img src="/portfolio/profile.png" alt="Profile" className="profile-pic" />
+      <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Profile" className="profile-pic" />
       <div className="about-text">
           <h1>About Me</h1>
           <p>
